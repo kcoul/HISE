@@ -123,11 +123,15 @@
 #endif
 
 #ifndef    USE_VDSP_FFT
- //#define USE_VDSP_FFT 0
+ //#define USE_VDSP_FFT 1
 #endif
 
 #ifndef    FRONTEND_IS_PLUGIN
  //#define FRONTEND_IS_PLUGIN 0
+#endif
+
+#ifndef    PROCESS_SOUND_GENERATORS_IN_FX_PLUGIN
+ //#define PROCESS_SOUND_GENERATORS_IN_FX_PLUGIN 1
 #endif
 
 #ifndef    FORCE_INPUT_CHANNELS
@@ -184,6 +188,10 @@
 
 #ifndef    ENABLE_ALL_PEAK_METERS
  #define   ENABLE_ALL_PEAK_METERS 1
+#endif
+
+#ifndef    READ_ONLY_FACTORY_PRESETS
+ //#define READ_ONLY_FACTORY_PRESETS 0
 #endif
 
 #ifndef    ENABLE_CONSOLE_OUTPUT
